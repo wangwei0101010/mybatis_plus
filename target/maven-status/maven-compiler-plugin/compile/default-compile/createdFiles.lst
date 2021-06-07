@@ -1,7 +1,0 @@
-com/mybatisplus/first/handler/MysMethObjectHandler.class
-com/mybatisplus/first/config/MybatisConfig.class
-com/mybatisplus/first/entity/Area.class
-com/mybatisplus/first/entity/User.class
-com/mybatisplus/first/dao/UserMapper.class
-com/mybatisplus/first/FirstApplication.class
-com/mybatisplus/first/dao/AreaDao.class
