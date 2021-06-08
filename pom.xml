@@ -80,19 +80,17 @@
 
 
     <!--swagger配置-->
-    <!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-core -->
-  <!--  <dependency>
+   <!-- <dependency>
       <groupId>io.swagger.core.v3</groupId>
       <artifactId>swagger-core</artifactId>
       <version>2.1.9</version>
-    </dependency>-->
+    </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations -->
-  <!--  <dependency>
+    <dependency>
       <groupId>io.swagger.core.v3</groupId>
       <artifactId>swagger-annotations</artifactId>
       <version>2.1.9</version>
-    </dependency>-->
+    </dependency>
 
     <dependency>
       <groupId>io.springfox</groupId>
@@ -105,7 +103,7 @@
       <artifactId>springfox-swagger-ui</artifactId>
       <version>2.2.2</version>
     </dependency>
-
+-->
 
     <dependency>
     <groupId>commons-io</groupId>
