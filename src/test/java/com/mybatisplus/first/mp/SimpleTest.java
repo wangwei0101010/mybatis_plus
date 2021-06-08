@@ -7,6 +7,9 @@ import com.mybatisplus.first.entity.User;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Optional;
+import java.util.function.Supplier;
+import net.bytebuddy.implementation.bytecode.Throw;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -119,6 +122,17 @@ public class SimpleTest {
     userMapper.deleteById(1L);
 
   }
+
+  //测试Optional
+  @Test
+  public void testOptional() throws Exception {
+    User user = null;
+    Optional.ofNullable(user).orElse(new User());
+    Optional.ofNullable(user).orElseGet(() -> new User());
+    Optional.ofNullable(user).orElseThrow( () ->new Exception("用户不存在"));
+
+  }
+
 
 
 
